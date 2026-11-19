@@ -1,6 +1,13 @@
-# PatentAssist
+# PatentAssist — AI patent research, prior-art search and drafting
 
-A model-agnostic skill for US utility-patent research and drafting. It clarifies the inventor's actual idea, searches prior art, gives candid evidence-backed assessments, and prepares supported application drafts.
+A model-agnostic agent skill for US utility-patent research and drafting. It clarifies the inventor's actual idea, searches prior art, gives candid evidence-backed assessments, and prepares supported application drafts.
+
+[![Download](https://img.shields.io/github/v/release/kvngnsn/patentassist?label=download)](https://github.com/kvngnsn/patentassist/releases/latest) [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-blue)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-portable-2d6a4f)](https://agentskills.io/specification)
+[![Checks](https://github.com/kvngnsn/patentassist/actions/workflows/check.yml/badge.svg)](https://github.com/kvngnsn/patentassist/actions/workflows/check.yml)
+
+**Start here:** [install](#install) · [workflow](SKILL.md) · [other AI tools and free research](references/resources.md) · [download](https://github.com/kvngnsn/patentassist/releases/latest)
+
+For inventors, patent lawyers and researchers who need a clear patentability assessment, claim-scope analysis or supported patent application draft. Covers invention intake, prior art, examiner objections, applicant responses and drafting; keeps real matter files outside the repository.
 
 | Phase | What it does |
 |---|---|
@@ -13,9 +20,25 @@ A model-agnostic skill for US utility-patent research and drafting. It clarifies
 
 The skill asks for missing mechanisms instead of silently inventing a different invention. Material changes reopen the affected analysis. It also provides optional FTO/invalidity, office-action, patent-summary and docketing workflows.
 
+## Install
+
+**Claude Code**
+
+```sh
+git clone https://github.com/kvngnsn/patentassist.git ~/.claude/skills/patentassist
+```
+
+**Codex**
+
+```sh
+git clone https://github.com/kvngnsn/patentassist.git ~/.agents/skills/patentassist
+```
+
+Open a new session and invoke `/patentassist` or `$patentassist` respectively. For another host, use the [release ZIP](https://github.com/kvngnsn/patentassist/releases/latest) or point a capable agent directly to [SKILL.md](SKILL.md). Existing installations should be updated in place rather than duplicated.
+
 ## Use with your model
 
-Clone/download this repository as a folder named `patentassist` in your host's skill directory, or give any capable agent the path to [SKILL.md](SKILL.md). Hosts with different discovery formats can load that Markdown directly. The workflow does not invoke a particular model, provider API or agent CLI; it also works with a suitably capable local-model agent. It needs file access, Python execution and source retrieval for the full workflow. Quality still depends on model capability and review.
+The workflow uses portable Markdown and Python, with no required AI provider, model or agent CLI. A suitably capable local-model agent can use the same files. Full operation needs file access, Python execution and source retrieval; a text-only host can discuss supplied documents but cannot complete the automated checks or live search. Quality depends on the model, evidence and review.
 
 Example prompts:
 
@@ -60,3 +83,11 @@ Tests check mechanics, source accounting, review freshness and representative sy
 Outputs are research aids and drafts, not a guarantee or a registered practitioner's opinion. The human decides, signs, files and pays. The workflow never automatically publishes an invention. Source queries follow the user's confidentiality authorization; full disclosures/files are not uploaded without authorization. Source access and current legal rules must be checked for the actual matter.
 
 Scripts/tests: MIT. Original instructions/templates/references: CC0 1.0. Third-party patent documents and cited materials retain their own rights; external linked projects have their own licenses. See [LICENSE](LICENSE) and [fixture provenance](tests/fixtures/README.md).
+
+## Related open-source skills
+
+| Project | Use it for |
+|---|---|
+| [no-slop](https://github.com/kvngnsn/no-slop) | Clear AI writing and editing, with facts and meaning preserved. |
+| [click-everything](https://github.com/kvngnsn/click-everything) | Exploratory UI testing, reproducible bugs and regression tests. |
+| [startupassist](https://github.com/kvngnsn/startupassist) | Startup legal documents, founder equity and financing templates. |
