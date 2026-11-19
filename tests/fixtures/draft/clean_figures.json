@@ -1,0 +1,150 @@
+{
+  "schema": "patentassist/figures@1",
+  "sheet": "letter",
+  "figures": [
+    {
+      "id": "FIG. 1",
+      "type": "block",
+      "title": "system overview",
+      "nodes": [
+        {
+          "id": "n0",
+          "label": "System",
+          "numeral": 100
+        },
+        {
+          "id": "n1",
+          "label": "Helmet",
+          "numeral": 102
+        },
+        {
+          "id": "n2",
+          "label": "Rear portion",
+          "numeral": 104,
+          "parent": "n1"
+        },
+        {
+          "id": "n3",
+          "label": "First light",
+          "numeral": 106,
+          "parent": "n2"
+        },
+        {
+          "id": "n4",
+          "label": "Second light",
+          "numeral": 108,
+          "parent": "n2"
+        },
+        {
+          "id": "n5",
+          "label": "Controller",
+          "numeral": 110,
+          "parent": "n1"
+        },
+        {
+          "id": "n6",
+          "label": "Processor",
+          "numeral": 112,
+          "parent": "n5"
+        },
+        {
+          "id": "n7",
+          "label": "Memory",
+          "numeral": 114,
+          "parent": "n5"
+        },
+        {
+          "id": "n8",
+          "label": "Accelerometer",
+          "numeral": 116,
+          "parent": "n1"
+        },
+        {
+          "id": "n9",
+          "label": "Wireless receiver",
+          "numeral": 118,
+          "parent": "n1"
+        },
+        {
+          "id": "n10",
+          "label": "First switch",
+          "numeral": 122
+        },
+        {
+          "id": "n11",
+          "label": "Second switch",
+          "numeral": 124
+        },
+        {
+          "id": "n12",
+          "label": "Wireless transmitter",
+          "numeral": 126
+        },
+        {
+          "id": "n13",
+          "label": "Handlebar",
+          "numeral": 130
+        },
+        {
+          "id": "n14",
+          "label": "Vehicle",
+          "numeral": 132
+        },
+        {
+          "id": "n15",
+          "label": "Wireless link",
+          "numeral": 140
+        }
+      ],
+      "edges": [
+        {
+          "from": "n12",
+          "to": "n9",
+          "label": "wireless link"
+        }
+      ]
+    },
+    {
+      "id": "FIG. 2",
+      "type": "flowchart",
+      "title": "method",
+      "steps": [
+        {
+          "numeral": 202,
+          "label": "Receive first signal"
+        },
+        {
+          "numeral": 204,
+          "label": "Activate first light"
+        },
+        {
+          "numeral": 206,
+          "label": "Deactivate after predetermined period"
+        },
+        {
+          "numeral": 208,
+          "label": "Receive second signal"
+        },
+        {
+          "numeral": 210,
+          "label": "Activate second light"
+        },
+        {
+          "numeral": 212,
+          "label": "Deceleration: activate both lights"
+        }
+      ]
+    },
+    {
+      "id": "FIG. 3",
+      "type": "image",
+      "title": "rear view",
+      "numerals": [
+        102,
+        104,
+        106,
+        108
+      ]
+    }
+  ]
+}

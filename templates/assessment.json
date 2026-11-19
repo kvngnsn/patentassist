@@ -1,0 +1,22 @@
+{
+  "purpose": "patentability",
+  "outcome": "inconclusive",
+  "scope": "Replace with the exact proposed combination or claim version being assessed.",
+  "bottom_line": "Replace with a direct supported assessment of the current scope.",
+  "examiner_objection": "Identify the strongest supported ground, evidence and missing facts.",
+  "applicant_response": "State the strongest supported answer, or explain that none is persuasive.",
+  "resolution": "Explain which argument wins, or precisely why it remains unresolved.",
+  "next_action": "Identify the consequential question, search, revision or decision.",
+  "uncertainty": "State the specific remaining coverage, factual or legal limits.",
+  "inventor_fidelity": "Explain how material features trace to the inventor's confirmed disclosure; identify proposals separately.",
+  "scope_confirmed": false,
+  "coverage": {
+    "search": "none",
+    "limits": [
+      "No prior-art search performed."
+    ]
+  },
+  "grounds": [],
+  "reference_ids": [],
+  "proceed_basis": ""
+}

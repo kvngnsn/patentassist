@@ -1,0 +1,19 @@
+{
+  "schema": "patentassist/chart@1",
+  "kind": "patentability",
+  "subject": {"type": "invention", "label": "Helmet signal system", "claim": null},
+  "elements": [
+    {"id": "1a", "text": "A helmet comprising a shell;", "construction_note": null},
+    {"id": "1b", "text": "a first light on a rear portion of the shell;", "construction_note": "\"rear portion\" may include the lower back edge"},
+    {"id": "1c", "text": "a controller that activates the light from a handlebar switch.", "construction_note": null}
+  ],
+  "refs": [{"id": "R1", "number": "US9457709B2", "verified": true}, {"id": "R2", "number": "US2016000000A1", "verified": false}],
+  "cells": [
+    {"element": "1a", "ref": "R1", "state": "explicit", "construction_dependent": false, "quote": "a helmet having an outer shell", "pinpoint": "[0018]", "analysis": "same", "verified": true},
+    {"element": "1b", "ref": "R1", "state": "partial", "construction_dependent": true, "quote": "lights along the lower edge", "pinpoint": "[0021]", "analysis": "edge, not rear face", "verified": false},
+    {"element": "1c", "ref": "R1", "state": "absent", "construction_dependent": false, "quote": null, "pinpoint": null, "analysis": "no handlebar input", "verified": false},
+    {"element": "1a", "ref": "R2", "state": "explicit", "construction_dependent": false, "quote": "=HYPERLINK(\"http://x\") shell | with pipe", "pinpoint": "col. 2", "analysis": "-starts with minus", "verified": false},
+    {"element": "1b", "ref": "R2", "state": "unknown", "construction_dependent": false, "quote": null, "pinpoint": null, "analysis": null, "verified": false}
+  ],
+  "needs_evidence": ["1c vs R2: accelerometer implied only by a part number"]
+}

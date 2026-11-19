@@ -1,0 +1,24 @@
+name: check
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -r requirements.txt
+      - run: python scripts/check_release.py
+      - run: python -m unittest discover -s tests -v
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+      - name: reference front matter
+        run: |
+          for f in references/*.md references/field-guides/*.md; do
+            head -1 "$f" | grep -q '^---$' || { echo "missing front matter: $f"; exit 1; }
+            grep -q '^last_verified:' "$f" || { echo "missing last_verified: $f"; exit 1; }
+          done

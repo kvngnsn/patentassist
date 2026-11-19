@@ -1,0 +1,201 @@
+                     UNITED STATES PATENT AND TRADEMARK OFFICE
+                                                          UNITED STATES DEPARTMENT OF COMMERCE
+                                                          United States Patent and Trademark Office
+                                                          Address: COMMISSIONER FOR PATENTS
+                                                               P.O. Box 1450
+                                                               Alexandria, Virginia 22313-1450
+                                                               www.uspto.gov
+
+   APPLICATION NO.        FILING DATE          FIRST NAMED INVENTOR        ATTORNEY DOCKET NO.     CONFIRMATION NO.
+
+     18/555,123           03/14/2024           Jordan A. Rivera            RIV-0012US              4821
+
+       98765          7590          05/06/2026                                          EXAMINER
+   EXAMPLE IP LAW GROUP                                                              LEE, MORGAN T
+   100 SAMPLE STREET, SUITE 5
+   ANYTOWN, ST 00000                                                       ART UNIT        PAPER NUMBER
+                                                                             3621
+
+                                                                     NOTIFICATION DATE     DELIVERY MODE
+                                                                        05/06/2026          ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+
+PTOL-90A (Rev. 04/07)
+
+
+
+
+                                                Application No.               Applicant(s)
+                                                18/555,123                    Rivera et al.
+           Office Action Summary                Examiner                      Art Unit          AIA (FITF) Status
+                                                MORGAN T LEE                  3621              Yes
+            -- The MAILING DATE of this communication appears on the cover sheet with the correspondence address --
+Period for Reply
+
+A SHORTENED STATUTORY PERIOD FOR REPLY IS SET TO EXPIRE 3 MONTHS FROM THE MAILING
+DATE OF THIS COMMUNICATION.
+ - Extensions of time may be available under the provisions of 37 CFR 1.136(a). In no event, however, may a reply be timely filed after SIX (6) MONTHS
+   from the mailing date of this communication.
+
+Status
+ 1)☒ Responsive to communication(s) filed on 01/10/2026.
+     ☐ A declaration(s)/affidavit(s) under 37 CFR 1.130(b) was/were filed on ______.
+2a)☐ This action is FINAL.                2b)☒ This action is non-final.
+ 3)☐ An election was made by the applicant in response to a restriction requirement set forth during the interview on _____;
+ 4)☐ Since this application is in condition for allowance except for formal matters, prosecution as to the merits is closed in
+     accordance with the practice under Ex parte Quayle, 1935 C.D. 11, 453 O.G. 213.
+
+Disposition of Claims*
+ 5)☒ Claim(s) 1-20 is/are pending in the application.
+     5a) Of the above claim(s) 16-18 is/are withdrawn from consideration.
+ 6)☐ Claim(s) ____ is/are allowed.
+ 7)☒ Claim(s) 1-12,19 and 20 is/are rejected.
+ 8)☒ Claim(s) 7 and 13-15 is/are objected to.
+ 9)☐ Claim(s) ____ are subject to restriction and/or election requirement
+* If any claims have been determined allowable, you may be eligible to benefit from the Patent Prosecution Highway program at a
+participating intellectual property office for the corresponding application.
+
+Application Papers
+10)☐ The specification is objected to by the Examiner.
+11)☒ The drawing(s) filed on 03/14/2024 is/are: a)☐ accepted or b)☒ objected to by the Examiner.
+     Applicant may not request that any objection to the drawing(s) be held in abeyance. See 37 CFR 1.85(a).
+
+U.S. Patent and Trademark Office
+PTOL-326 (Rev. 11-13)                        Office Action Summary                   Part of Paper No./Mail Date 20260428
+
+
+
+
+Application/Control Number: 18/555,123                                                                  Page 2
+Art Unit: 3621
+
+                                              DETAILED ACTION
+
+Notice of Pre-AIA or AIA Status
+
+1.      The present application, filed on or after March 16, 2013, is being examined under the first inventor to
+file provisions of the AIA.
+
+Response to Amendment
+
+2.      The amendment filed 01/10/2026 has been entered. Claims 1-20 remain pending. The rejection of claim 6
+under 35 U.S.C. 112(b) set forth in the previous action is withdrawn in view of the amendment.
+
+Drawings
+
+3.      The drawings are objected to under 37 CFR 1.83(a). The drawings must show every feature of the
+invention specified in the claims. Therefore, the "dampening member" of claim 8 must be shown or the
+feature(s) canceled from the claim(s). No new matter should be entered.
+
+Claim Objections
+
+4.      Claim 7 is objected to because of the following informalities: in line 3, "the the sensor" should read
+"the sensor". Appropriate correction is required.
+
+Claim Interpretation
+
+5.      The following is a quotation of 35 U.S.C. 112(f):
+        (f) Element in Claim for a Combination. - An element in a claim for a combination may be expressed as a
+        means or step for performing a specified function without the recital of structure, material, or acts in
+        support thereof, and such claim shall be construed to cover the corresponding structure, material, or acts
+        described in the specification and equivalents thereof.
+
+6.      This application includes one or more claim limitations that use a generic placeholder that is coupled with
+functional language without reciting sufficient structure to perform the recited function. Such claim
+limitation(s) is/are: "signal processing module configured to classify the motion" in claim 9.
+Because this claim limitation is being interpreted under 35 U.S.C. 112(f), it is being interpreted to cover the
+corresponding structure described in the specification as performing the claimed function, and equivalents
+thereof.
+
+Double Patenting
+
+7.      The nonstatutory double patenting rejection is based on a judicially created doctrine grounded in public
+policy (a policy reflected in the statute) so as to prevent the unjustified or improper timewise extension of the
+"right to exclude" granted by a patent. A timely filed terminal disclaimer in compliance with 37 CFR 1.321(c)
+or 1.321(d) may be used to overcome an actual or provisional rejection based on nonstatutory double patenting.
+
+8.      Claims 1 and 10 are rejected on the ground of nonstatutory double patenting as being unpatentable over
+claims 1 and 8 of U.S. Patent No. 11,234,567. Although the claims at issue are not identical, they are not
+patentably distinct from each other because claim 1 of the patent recites every element of claim 1 of the
+instant application.
+
+Claim Rejections - 35 USC § 112
+
+9.      The following is a quotation of 35 U.S.C. 112(b):
+        (b) CONCLUSION.-The specification shall conclude with one or more claims particularly pointing out and
+        distinctly claiming the subject matter which the inventor or a joint inventor regards as the invention.
+
+10.     Claims 4 and 5 are rejected under 35 U.S.C. 112(b) or 35 U.S.C. 112 (pre-AIA), second paragraph, as
+being indefinite for failing to particularly point out and distinctly claim the subject matter which the inventor
+or a joint inventor (or for applications subject to pre-AIA 35 U.S.C. 112, the applicant), regards as the
+invention.
+        Claim 4 recites the limitation "the housing" in line 2. There is insufficient antecedent basis for this
+limitation in the claim.
+        Claim 5 recites "substantially rigid," which is a relative term that renders the claim indefinite. The term
+is not defined by the claim, and the specification does not provide a standard for ascertaining the requisite
+degree.
+
+Claim Rejections - 35 USC § 102
+
+11.     In the event the determination of the status of the application as subject to AIA 35 U.S.C. 102 and 103
+(or as subject to pre-AIA 35 U.S.C. 102 and 103) is incorrect, any correction of the statutory basis for the
+rejection will not be considered a new ground of rejection if the prior art relied upon, and the rationale
+supporting the rejection, would be the same under either status.
+
+12.     Claims 1-3, 6 and 10 are rejected under 35 U.S.C. 102(a)(1) as being anticipated by Smith (US
+9,123,456 B2).
+        Regarding claim 1, Smith discloses a wearable signaling device (col. 3, ll. 5-10; FIG. 2) comprising:
+        a flexible band (col. 4, ll. 12-20; FIG. 2, element 22);
+        a light emitter mounted on the band (col. 5, ll. 1-8);
+        a motion sensor configured to detect a hand gesture (col. 6, ll. 30-45; FIG. 4); and
+        a controller that activates the light emitter in response to the hand gesture (col. 7, ll. 2-15).
+        Regarding claim 2, Smith further discloses wherein the light emitter is an LED array (col. 5, ll. 20-25).
+        Regarding claim 3, Smith discloses a battery housed in the band (col. 8, ll. 1-4).
+
+Claim Rejections - 35 USC § 103
+
+13.     The following is a quotation of 35 U.S.C. 103 which forms the basis for all obviousness rejections set forth
+in this Office action:
+        A patent for a claimed invention may not be obtained, notwithstanding that the claimed invention is not
+        identically disclosed as set forth in section 102, if the differences between the claimed invention and the
+        prior art are such that the claimed invention as a whole would have been obvious before the effective
+        filing date of the claimed invention to a person having ordinary skill in the art to which the claimed
+        invention pertains.
+
+14.     Claims 4, 5, 7-9, 11, 12, 19 and 20 are rejected under 35 U.S.C. 103 as being unpatentable over Smith (US
+9,123,456 B2) in view of Jones (US 2019/0123456 A1).
+        Regarding claim 4, Smith discloses the device of claim 1 but does not disclose a housing enclosing the
+controller. However, Jones teaches a sealed housing enclosing a microcontroller (para. [0045]; FIG. 3). It
+would have been obvious to a person having ordinary skill in the art before the effective filing date to enclose
+the controller of Smith in the housing of Jones to protect it from moisture.
+        Regarding claim 9, Jones teaches a signal processing module that classifies wrist motion (para. [0052]-
+[0055]).
+
+15.     Claim 11 is further rejected under 35 U.S.C. 103 as being unpatentable over Smith in view of Jones, and
+further in view of Park (KR 10-2015-0012345 A).
+        Regarding claim 11, Park teaches a haptic motor that vibrates to confirm a gesture (page 4, lines 3-9).
+
+Response to Arguments
+
+16.     Applicant's arguments filed 01/10/2026 have been fully considered but they are not persuasive. Applicant
+argues that Smith does not disclose a motion sensor. The examiner respectfully disagrees: Smith describes an
+accelerometer that detects arm movement (col. 6, ll. 30-45), which reads on the claimed motion sensor under
+its broadest reasonable interpretation.
+
+Allowable Subject Matter
+
+17.     Claims 13-15 are objected to as being dependent upon a rejected base claim, but would be allowable if
+rewritten in independent form including all of the limitations of the base claim and any intervening claims.
+
+Conclusion
+
+18.     The prior art made of record and not relied upon is considered pertinent to applicant's disclosure.
+Nguyen (US 10,555,666 B1) discloses a glove with turn-signal lights.
+
+Any inquiry concerning this communication or earlier communications from the examiner should be directed
+to MORGAN T LEE whose telephone number is (571)555-0100. The examiner can normally be reached on
+Monday-Friday 9am-5pm.
+
+/MORGAN T LEE/
+Primary Examiner, Art Unit 3621

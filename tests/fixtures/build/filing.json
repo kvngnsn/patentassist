@@ -1,0 +1,31 @@
+{
+  "schema": "patentassist/filing@1",
+  "filing_type": "provisional",
+  "title": "Helmet Turn-Signal System With Wireless Handlebar Remote",
+  "attorney_docket": "HELM-001P",
+  "application_number": null,
+  "filing_date": null,
+  "inventors": [
+    {"given": "Jane", "middle": "Q.", "family": "Rider",
+     "residence": {"city": "Austin", "state": "TX", "country": "US"},
+     "mailing": {"address1": "100 Example Street", "address2": null, "city": "Austin", "state": "TX", "postcode": "78701", "country": "US"}},
+    {"given": "Sam", "middle": null, "family": null,
+     "residence": {"city": null, "state": null, "country": null},
+     "mailing": null}
+  ],
+  "applicants": [],
+  "correspondence": {"customer_no": null, "name": "Jane Q. Rider", "address": {"address1": "100 Example Street", "city": "Austin", "state": "TX", "postcode": "78701", "country": "US"}, "email": "jane@example.com", "phone": null},
+  "entity_status": "micro",
+  "micro_basis": "gross_income",
+  "domestic_benefit": [],
+  "foreign_priority": [],
+  "government_interest": {"funded": false, "made_by_agency": false, "agency": null, "contract_no": null},
+  "representative": null,
+  "nonpublication_request": null,
+  "ads_enclosed": false,
+  "drawing_sheets": 5,
+  "spec_pages": 4,
+  "suggested_figure": "FIG. 1",
+  "total_fee": null,
+  "signer": {"given": "Jane", "middle": "Q.", "family": "Rider", "reg_no": null, "phone": null}
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "patentassist/figures@1",
+  "sheet": "letter",
+  "figures": [
+    {"id": "FIG. 1", "type": "block", "title": "system overview",
+     "nodes": [
+       {"id": "helmet", "label": "Helmet", "numeral": 100},
+       {"id": "ctrl", "label": "Controller", "numeral": 110, "parent": "helmet"},
+       {"id": "lights", "label": "Rear light array", "numeral": 120, "parent": "helmet"},
+       {"id": "batt", "label": "Battery", "numeral": 130, "parent": "helmet"},
+       {"id": "rx", "label": "Wireless receiver", "numeral": 140, "parent": "helmet"},
+       {"id": "remote", "label": "Handlebar remote", "numeral": 150},
+       {"id": "phone", "label": "Mobile device", "numeral": 160}
+     ],
+     "edges": [
+       {"from": "remote", "to": "rx", "label": "wireless link"},
+       {"from": "phone", "to": "rx"},
+       {"from": "rx", "to": "ctrl"},
+       {"from": "batt", "to": "ctrl"},
+       {"from": "ctrl", "to": "lights"}
+     ]},
+    {"id": "FIG. 2", "type": "flowchart", "title": "method of signaling a turn",
+     "steps": [
+       {"numeral": 202, "label": "Power on controller", "kind": "start"},
+       {"numeral": 204, "label": "Receive signal from handlebar remote"},
+       {"numeral": 206, "label": "Left or right?", "kind": "decision", "yes": 208, "no": 210, "yes_label": "left", "no_label": "right"},
+       {"numeral": 208, "label": "Flash left segment of rear light array", "next": 212},
+       {"numeral": 210, "label": "Flash right segment of rear light array"},
+       {"numeral": 212, "label": "Cancel received?", "kind": "decision", "yes": 214, "no": 204},
+       {"numeral": 214, "label": "Turn off rear light array", "kind": "end"}
+     ]},
+    {"id": "FIG. 3", "type": "sequence", "title": "message exchange",
+     "participants": [
+       {"id": "remote", "label": "Handlebar remote", "numeral": 150},
+       {"id": "rx", "label": "Wireless receiver", "numeral": 140},
+       {"id": "ctrl", "label": "Controller", "numeral": 110},
+       {"id": "lights", "label": "Rear light array", "numeral": 120}
+     ],
+     "messages": [
+       {"from": "remote", "to": "rx", "label": "Turn request", "numeral": 302},
+       {"from": "rx", "to": "ctrl", "label": "Decoded command", "numeral": 304},
+       {"from": "ctrl", "to": "ctrl", "label": "Start timer", "numeral": 306},
+       {"from": "ctrl", "to": "lights", "label": "Flash pattern", "numeral": 308},
+       {"from": "ctrl", "to": "remote", "label": "Acknowledge", "kind": "return", "numeral": 310}
+     ]},
+    {"id": "FIG. 4", "type": "wireframe", "title": "configuration screen",
+     "device": {"kind": "phone", "numeral": 160, "label": "Mobile device"},
+     "regions": [
+       {"x": 0.05, "y": 0.03, "w": 0.9, "h": 0.1, "label": "Settings", "numeral": 402},
+       {"x": 0.05, "y": 0.18, "w": 0.9, "h": 0.08, "label": "Brightness", "numeral": 404},
+       {"x": 0.05, "y": 0.31, "w": 0.9, "h": 0.32, "label": "Pattern list", "numeral": 406, "shape": "text"},
+       {"x": 0.08, "y": 0.70, "w": 0.4, "h": 0.1, "label": "Save", "numeral": 408, "shape": "button"},
+       {"x": 0.62, "y": 0.70, "w": 0.22, "h": 0.1, "label": "Battery icon", "numeral": 410, "shape": "circle"}
+     ]},
+    {"id": "FIG. 5", "type": "graph", "title": "light output vs ambient light",
+     "kind": "line", "x_label": "Ambient light (lux)", "y_label": "Output (%)",
+     "series": [
+       {"label": "Rear light output", "numeral": 502, "points": [[0, 100], [200, 90], [400, 70], [600, 55], [800, 45], [1000, 40]]},
+       {"label": "Minimum output", "numeral": 504, "points": [[0, 30], [1000, 30]]}
+     ]}
+  ]
+}

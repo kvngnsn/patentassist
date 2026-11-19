@@ -1,0 +1,68 @@
+{
+ "schema": "patentassist/figures@1",
+ "sheet": "letter",
+ "figures": [
+  {
+   "id": "FIG. 1",
+   "type": "block",
+   "title": "pad electronics",
+   "nodes": [
+    {
+     "id": "sensor",
+     "label": "Vibration sensor",
+     "numeral": 122
+    },
+    {
+     "id": "housing",
+     "label": "Rim housing",
+     "numeral": 150
+    },
+    {
+     "id": "ctrl",
+     "label": "Controller",
+     "numeral": 130,
+     "parent": "housing"
+    },
+    {
+     "id": "cpu",
+     "label": "Processor",
+     "numeral": 132,
+     "parent": "ctrl"
+    },
+    {
+     "id": "mem",
+     "label": "Memory",
+     "numeral": 134,
+     "parent": "ctrl"
+    },
+    {
+     "id": "xcvr",
+     "label": "Wireless transceiver",
+     "numeral": 136,
+     "parent": "housing"
+    },
+    {
+     "id": "batt",
+     "label": "Battery",
+     "numeral": 138,
+     "parent": "housing"
+    }
+   ],
+   "edges": [
+    {
+     "from": "sensor",
+     "to": "ctrl",
+     "label": "signal"
+    },
+    {
+     "from": "ctrl",
+     "to": "xcvr"
+    },
+    {
+     "from": "batt",
+     "to": "ctrl"
+    }
+   ]
+  }
+ ]
+}

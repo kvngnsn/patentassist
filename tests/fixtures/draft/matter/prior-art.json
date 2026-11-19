@@ -1,0 +1,21 @@
+{
+  "schema": "patentassist/prior-art@1",
+  "purpose": "patentability",
+  "stage": "deep",
+  "cutoff_date": "2026-11-18",
+  "elements": [
+    {"id": "E1", "text": "a helmet shell", "essential": true},
+    {"id": "E2", "text": "rear turn-signal lights on the shell", "essential": true},
+    {"id": "E3", "text": "wireless handlebar switches", "essential": true}
+  ],
+  "references": [
+    {"id": "R1", "type": "patent", "number": "US9457709B2", "title": "Bicycle helmet with lights", "verified": true, "category": "X",
+     "element_map": {
+       "E1": {"state": "explicit", "pinpoint": "[0018]", "quote": "a helmet shell"},
+       "E2": {"state": "partial", "pinpoint": "[0021]", "quote": "lights at the rear", "note": "lights are not said to be turn signals", "construction_dependent": true}
+     }},
+    {"id": "R2", "type": "npl", "number": "doi:10.0000/example", "title": "Signal gloves", "verified": false, "category": "Y",
+     "element_map": {"E3": {"state": "explicit", "pinpoint": "p. 4", "quote": "wireless switch on the bar"}}},
+    {"id": "R3", "type": "patent", "number": "US1234567B1", "title": "Background only", "verified": true, "category": "A"}
+  ]
+}

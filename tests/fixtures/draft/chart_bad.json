@@ -1,0 +1,12 @@
+{
+  "schema": "patentassist/chart@1",
+  "kind": "infringement",
+  "subject": {"type": "product", "label": "Acme helmet", "claim": 1},
+  "elements": [{"id": "1a", "text": "a shell"}, {"id": "1b", "text": "a light"}],
+  "refs": [{"id": "P1", "label": "Acme X1"}],
+  "cells": [
+    {"element": "1a", "ref": "P1", "state": "explicit", "quote": "shell", "pinpoint": "manual p.2", "verified": false},
+    {"element": "1a", "ref": "P1", "state": "literal", "quote": "shell", "pinpoint": "manual p.2", "verified": false},
+    {"element": "9z", "ref": "P1", "state": "literal", "quote": "x", "pinpoint": "p.3", "verified": "yes"}
+  ]
+}

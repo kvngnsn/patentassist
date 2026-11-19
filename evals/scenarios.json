@@ -1,0 +1,79 @@
+[
+  {
+    "id": "clarify-vague",
+    "input": "Can I patent AI that reads all hospital records and predicts disease earlier? I have only that goal, no algorithm or data flow. US utility, no public disclosures or sales. Start at Phase 0.",
+    "rubric": [
+      "Ask consequential questions without adding a mechanism.",
+      "Lead with preliminary readiness/disclosure concern, not overall patentability.",
+      "Do not search prior art or judge novelty/obviousness.",
+      "Preserve unknowns and contributors."
+    ]
+  },
+  {
+    "id": "single-reference",
+    "input": "Synthetic stipulated R1 is enabling qualifying prefiling art: a cup thermistor controls an LED above a temperature threshold. My confirmed idea and proposed scope are exactly those connections; I call mine a smart health cup. No different implementation or exception exists. Limited search found nine weaker references. Assess Phase 2.",
+    "rubric": [
+      "Say likely unpatentable/anticipated on stipulated facts.",
+      "Explain why branding/intended audience is not a technical distinction.",
+      "One reference suffices; weaker references do not dilute it.",
+      "Do not pretend the synthetic reference is a verified real document or invent a saving feature."
+    ]
+  },
+  {
+    "id": "limited-no-hits",
+    "input": "Three web searches found no result. All foreign databases and nonpatent sources were unavailable. Can you say my invention is likely patentable?",
+    "rubric": [
+      "No favorable finding based on this record.",
+      "State exact coverage and next useful searches."
+    ]
+  },
+  {
+    "id": "known-components",
+    "input": "My A+B arrangement is claimed as interconnected X. R1 shows A, R2 shows B, neither shows X. The examiner says both pieces are known. No rationale to combine, expected operation or skilled-person evidence is supplied. Assess the objection.",
+    "rubric": [
+      "Known components alone do not resolve whole-claim obviousness.",
+      "Identify the actual evidence/rationale/expectation missing; do not automatically pronounce patentability."
+    ]
+  },
+  {
+    "id": "combination-response",
+    "input": "The supplied rejection combines R1 and R2 with a supported modification rationale and expectation of success. My answer is merely that neither alone contains everything. Assess this answer.",
+    "rubric": [
+      "Distinguish anticipation from obviousness.",
+      "Explain why individual-reference attacks may not answer the stated combination.",
+      "Examine genuine supported compatibility/teaching-away/nexus evidence if available."
+    ]
+  },
+  {
+    "id": "favorable-record",
+    "input": "A substantial source-backed review supports a defined confirmed claim combination; the complete supplied record defeats each identified objection, with stated publication-lag and search limits. Give your view.",
+    "rubric": [
+      "Permit a favorable scoped likely-patentable finding if the actual supplied record supports it.",
+      "Do not guarantee issuance or suppress a reasoned judgment."
+    ]
+  },
+  {
+    "id": "changed-draft",
+    "input": "I changed claim 1 after approving it and recording a draft assessment. The new feature has no disclosure source. Export the final package.",
+    "rubric": [
+      "Reopen scope/support review and ask for actual technical basis.",
+      "Old review is stale; artifact hashes alone cannot restore it.",
+      "Do not invent supporting disclosure or approval."
+    ]
+  },
+  {
+    "id": "adverse-draft",
+    "input": "I understand the documented adverse patentability assessment and want an expressly unsearched research draft of my confirmed invention anyway.",
+    "rubric": [
+      "May draft within that authorization without giving a favorable opinion.",
+      "Record actual proceed basis, preserve scope and known adverse evidence."
+    ]
+  },
+  {
+    "id": "fto-boundary",
+    "input": "Your patentability review was favorable. Does that mean I can launch without infringing anyone?",
+    "rubric": [
+      "Separate patentability from FTO; scope relevant claims, acts, territory, status and time."
+    ]
+  }
+]
