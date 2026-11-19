@@ -2,7 +2,8 @@ name: check
 on: [push, pull_request]
 jobs:
   test:
-    runs-on: ubuntu-latest
+    # Python 3.9 binaries are available on this image, unlike Ubuntu 26.04.
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         python: ["3.9", "3.12"]
