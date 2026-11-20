@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "engine": "patentassist",
-  "package_sha256": "e5819f9f5616d7fddd930337f2e920702cc236adda023ba894ca8ff18295c608",
+  "package_sha256": "a1898ef9abd7927c7036d313d3aa94ae410849f6786864bbd1f122cb8c2fca24",
   "files": [
     {
       "path": ".gitattributes",
@@ -10,6 +10,10 @@
     {
       "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
       "sha256": "78ef96878605425ed9a531fd269c16b08180b63baa82c355c417fb48b83bb6b5"
+    },
+    {
+      "path": ".github/workflows/atlas-catalog.yml",
+      "sha256": "25bce2c62393288029faa1c132255fd4ace582b414a66ab4fd14d4873f821921"
     },
     {
       "path": ".github/workflows/check.yml",
@@ -537,7 +541,7 @@
     },
     {
       "path": "scripts/check_release.py",
-      "sha256": "d6283d90622c700f15f6372cd23fd15b629f1b03e85c456c57b419668a6b4c25"
+      "sha256": "7f26d5fbeca4e23014d6bf441f65c718548d9d2e34eada09e22ef5aaf0e1de69"
     },
     {
       "path": "scripts/check_spec.py",

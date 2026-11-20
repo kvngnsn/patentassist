@@ -5,8 +5,8 @@ from pathlib import Path
 from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
-ROOT_FILES = {"SKILL.md", "README.md", "LICENSE", ".gitignore", ".gitattributes", "requirements.txt"}
-ROOT_DIRS = {".github", "phases", "modules", "references", "scripts", "templates", "tests", "evals"}
+ROOT_FILES = {"SKILL.md", "README.md", "LICENSE", ".gitignore", ".gitattributes", "requirements.txt", "engine.json"}
+ROOT_DIRS = {".github", "phases", "modules", "references", "scripts", "templates", "tests", "evals", "atlas"}
 TEXT_SUFFIXES = {".md", ".txt", ".py", ".json", ".yml", ".yaml", ".html"}
 PATTERNS = {
     "private home path": r"/(?:Users|home)/[A-Za-z0-9._-]+/",
