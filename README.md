@@ -91,3 +91,7 @@ Scripts/tests: MIT. Original instructions/templates/references: CC0 1.0. Third-p
 | [no-slop](https://github.com/kvngnsn/no-slop) | Clear AI writing and editing, with facts and meaning preserved. |
 | [click-everything](https://github.com/kvngnsn/click-everything) | Exploratory UI testing, reproducible bugs and regression tests. |
 | [startupassist](https://github.com/kvngnsn/startupassist) | Startup legal documents, founder equity and financing templates. |
+
+## Atlas workflow catalog
+
+The optional [Atlas adapter](atlas/README.md) catalogs individual outputs and future shells. It preserves this standalone skill; adapter readiness is tracked separately.

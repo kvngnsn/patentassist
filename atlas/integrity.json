@@ -1,0 +1,863 @@
+{
+  "schema_version": "1.0",
+  "engine": "patentassist",
+  "package_sha256": "e5819f9f5616d7fddd930337f2e920702cc236adda023ba894ca8ff18295c608",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "189fbc7738363d301cd4d5ff32574171f335416dd41cf1975658ae18cf3d269e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "sha256": "78ef96878605425ed9a531fd269c16b08180b63baa82c355c417fb48b83bb6b5"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "sha256": "f1731c34a3dee65f7f7f8357c662ef59203920071b5814b13710df2af8e02b7f"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "486594d31da16f4bc5dcec9d3a251e5c58b13a65bdad7e6a1d27541ab0fa88b3"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ac5bfed8e9c928e73f60c57288333a947885a39d3e9d7dc8b345837fe25f0dc2"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f23351ba2f03becea0fafd347fa54ce12884b7d2253bbda7012220a3ee0080f8"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "737f8a0192c19c94eb37564f94eb7015e0bdf9818b40f7498ece553e0a8c7dbe"
+    },
+    {
+      "path": "atlas/CATALOG.md",
+      "sha256": "154b17fa5584950d63b1ce8b34f870b7e3154b431c4b40568eb0a72931db1997"
+    },
+    {
+      "path": "atlas/README.md",
+      "sha256": "70a1909624b24a56d4a5fee198b5dfbeaf329d4f10cd2d64b5bc1c057ecdc0b2"
+    },
+    {
+      "path": "atlas/catalog.json",
+      "sha256": "da91565100200ccc1becbbbe28439524dbc9064c2bd48c5128b5be9b54af22f6"
+    },
+    {
+      "path": "atlas/evals/README.md",
+      "sha256": "788610e44ac9db48713f222acb7d1b83878bb179c6b1afdbf94c660f5eb081fa"
+    },
+    {
+      "path": "atlas/schemas/invocation.schema.json",
+      "sha256": "2b785117c1ddba7ea7273e26614b37c1bceb0fe196f117a187b878b1e278d2aa"
+    },
+    {
+      "path": "atlas/schemas/release.schema.json",
+      "sha256": "8fc1bc62b789e24b4b7393c68acbec77a8d4796f45965b1fd5979fdeeb9a6f2f"
+    },
+    {
+      "path": "atlas/schemas/result.schema.json",
+      "sha256": "682f04112354aa73061b51be34faa828e7e1ea4d303d85b186214718b9ccf5b2"
+    },
+    {
+      "path": "atlas/scripts/validate.py",
+      "sha256": "11f2254527c94aeb5460ca4c5995a744f7bbeda3a582521af81b63d8c5851c36"
+    },
+    {
+      "path": "atlas/workflows/analysis/claim-chart/SKILL.md",
+      "sha256": "be8591a54761f978e6f7d3665e70612022dad0712727a9c7d5076a7912d02d49"
+    },
+    {
+      "path": "atlas/workflows/analysis/freedom-to-operate/SKILL.md",
+      "sha256": "c37bd478b852c5c93644eaaaa10b56761ba79f86e60d25718cd3ad0db39fbaf3"
+    },
+    {
+      "path": "atlas/workflows/analysis/infringement-comparison/SKILL.md",
+      "sha256": "e0d43b1a85ed94b57187dc9d956eff254d5571e4c4e81843b6f6c7501af2eb53"
+    },
+    {
+      "path": "atlas/workflows/analysis/invalidity-analysis/SKILL.md",
+      "sha256": "1e9ed57139e8b29bcb12db64a85b5c99d58fa79790643f7a8cc0cae1a67161a0"
+    },
+    {
+      "path": "atlas/workflows/analysis/maintenance-checklist/SKILL.md",
+      "sha256": "d7988e8ab6c6b92e226c597340670644fc155642e42d352da00e6be5d1979b8c"
+    },
+    {
+      "path": "atlas/workflows/analysis/patentability-assessment/SKILL.md",
+      "sha256": "8ffb7fd8c1b1a8e6c55c33df219e1fa288ff55c106cac13868cd26eaaebf6559"
+    },
+    {
+      "path": "atlas/workflows/analysis/portfolio-review/SKILL.md",
+      "sha256": "761ff6ae2bea71b834ca6299849bf32b0e3f1172bd129d367bff39ecab81ed28"
+    },
+    {
+      "path": "atlas/workflows/analysis/prior-art-report/SKILL.md",
+      "sha256": "5cbb59f8f2b06d04c4a8be7cfa22dc2f31e0cf378a6ac2c6369603368ba64cab"
+    },
+    {
+      "path": "atlas/workflows/analysis/support-matrix/SKILL.md",
+      "sha256": "f3612e3fdc52a2e4e9f7b21d91c6ee12e23a7f76cc34cf90cf7075af3ef5a1aa"
+    },
+    {
+      "path": "atlas/workflows/drafting/abstract/SKILL.md",
+      "sha256": "d2c54e9204979931ba99da9cad8a6b5031e95fb3c351a63730b45c12e0a3e78c"
+    },
+    {
+      "path": "atlas/workflows/drafting/application-data-sheet/SKILL.md",
+      "sha256": "e4949107275851441fd5cca3bcd4036361eb2ac13b20958c1a4cd5fea2085756"
+    },
+    {
+      "path": "atlas/workflows/drafting/assignment/SKILL.md",
+      "sha256": "f27655220e25aada5a5099eb989d7aa298f20fb06a5b0ca52f5f78535d72ab77"
+    },
+    {
+      "path": "atlas/workflows/drafting/claims/SKILL.md",
+      "sha256": "fdd348b4a06ccc650a269b0eb69a17ba7e5d6bdb4c91ae16aa47b13131eeb81d"
+    },
+    {
+      "path": "atlas/workflows/drafting/drawings/SKILL.md",
+      "sha256": "ecfc286f681f39cdddc91627fe842e20a423b7a72b36f5a7725d6df005292f51"
+    },
+    {
+      "path": "atlas/workflows/drafting/information-disclosure-statement/SKILL.md",
+      "sha256": "7d4a680b26ca2e011932c323954580f0795ba1b356fb50721b71b3d25c24a9eb"
+    },
+    {
+      "path": "atlas/workflows/drafting/inventor-declaration/SKILL.md",
+      "sha256": "b197a1a980ba8db98cb4f03f15111d7dab64d30ce02c3a4758e2005415085cc8"
+    },
+    {
+      "path": "atlas/workflows/drafting/nonprovisional/SKILL.md",
+      "sha256": "ebe639e9783ad1fbbe6eb0c56e5018ec307685401fd7328d9f45daa75c0005b8"
+    },
+    {
+      "path": "atlas/workflows/drafting/priority-claim/SKILL.md",
+      "sha256": "e7fabe36de6f761d7bc7d976cb46cdb973988bddda9cd1a3d7c6e43fb79ebe37"
+    },
+    {
+      "path": "atlas/workflows/drafting/provisional/SKILL.md",
+      "sha256": "b909023508a85c6f9e268f9bdb2174c456a9e0d4ca39882867f81c1979725697"
+    },
+    {
+      "path": "atlas/workflows/drafting/sequence-listing/SKILL.md",
+      "sha256": "feb2d64c7a7dcbe397b4404b4db93dfe232a1815df792c515028777d3e1236d9"
+    },
+    {
+      "path": "atlas/workflows/drafting/specification/SKILL.md",
+      "sha256": "647ea4a7858994615ee1ac55b5d68607250a9128842c098b11ceda32a4c1bb9c"
+    },
+    {
+      "path": "atlas/workflows/future/design-application/SKILL.md",
+      "sha256": "d87986a97f1ca3d050740d466f1e776bc723a02d9dd3d47740679556258beffd"
+    },
+    {
+      "path": "atlas/workflows/future/foreign-prosecution-handoff/SKILL.md",
+      "sha256": "e07ae7fd4239ec7fe980942ec25c15a73640f21abb76733f697617177c736611"
+    },
+    {
+      "path": "atlas/workflows/future/national-stage-entry/SKILL.md",
+      "sha256": "33663c7f5e7dab8c46b455dcd66966886c535c1f86b2468443c90a3dbf946f4f"
+    },
+    {
+      "path": "atlas/workflows/future/pct-application/SKILL.md",
+      "sha256": "d16ce5248fd97671c980df9e6add1219a9211b2eeff1a68ab6801d991b83ab46"
+    },
+    {
+      "path": "atlas/workflows/future/plant-application/SKILL.md",
+      "sha256": "012bbac7fcdfed5ffb740b9fe4d22ceba67e227ba41ffc5e801b73bbd4b83390"
+    },
+    {
+      "path": "atlas/workflows/future/ptab-petition/SKILL.md",
+      "sha256": "ee99ee616f93d8c3d4bc56f09336d76bbc8ea85ce34e93f64f89732ef1b7ee4f"
+    },
+    {
+      "path": "atlas/workflows/future/ptab-response/SKILL.md",
+      "sha256": "6a9442bfd5eb7f376e5e7e5de4ffcd6b4bd82fc2f0cefa0b1622ddd1eac60628"
+    },
+    {
+      "path": "atlas/workflows/modules/analyze/SKILL.md",
+      "sha256": "e6d64bb3d53be34e168a784b953f2e7bf7bba6aeff5b4ab127d47fbd4a59e880"
+    },
+    {
+      "path": "atlas/workflows/modules/mine/SKILL.md",
+      "sha256": "583d9f492ede6707da69722bdb12c20492a9cd2b29c5b63856c0742af8c467e9"
+    },
+    {
+      "path": "atlas/workflows/modules/portfolio/SKILL.md",
+      "sha256": "7ea8a4cf23f20ef7d2629cabd7ef43effe3cf5b94cb5a55d4b757c6d7df58f3b"
+    },
+    {
+      "path": "atlas/workflows/modules/prosecution/SKILL.md",
+      "sha256": "b43f07318fdbea037d60b33a1a9749f67c754a2620b29074bf46ddc6aff9dcc0"
+    },
+    {
+      "path": "atlas/workflows/phases/0-clarify/SKILL.md",
+      "sha256": "aa49edc93dc0985680bfa748e72714a327eaeefb00f50aa840e1b851e96fde28"
+    },
+    {
+      "path": "atlas/workflows/phases/1-lite/SKILL.md",
+      "sha256": "72574d871d6d683a2d71bbd8bdab67c40e9ca67800f07ccbe4c7ab0e622bb165"
+    },
+    {
+      "path": "atlas/workflows/phases/2-deep/SKILL.md",
+      "sha256": "b3a210f4b7369d49451873a9e52aac5918cc50fa1c38f101720f77f3ffd7648a"
+    },
+    {
+      "path": "atlas/workflows/phases/3-draft/SKILL.md",
+      "sha256": "5d6cf612800ab1cb5c1415498c1454bd1fe200d0af36b0b0c2d5c20f8bbfee12"
+    },
+    {
+      "path": "atlas/workflows/prosecution/after-final-response/SKILL.md",
+      "sha256": "bf0d3547ba69447c2df559ecedd82fc8296ce3c149e4b857f145c67e532f8d82"
+    },
+    {
+      "path": "atlas/workflows/prosecution/appeal-brief/SKILL.md",
+      "sha256": "6938032c07d811fa817002fad7042a7b52d59205d0807bff8ae1cb084571bdb2"
+    },
+    {
+      "path": "atlas/workflows/prosecution/certificate-of-correction/SKILL.md",
+      "sha256": "98bee90082c5f443350e300a509ed5acf053142b4606fe0abb3c69c3e077c922"
+    },
+    {
+      "path": "atlas/workflows/prosecution/claim-amendment/SKILL.md",
+      "sha256": "a85c979168cf5eb73fe0298e747780654d121e337d7b228a3c422af44e310aaa"
+    },
+    {
+      "path": "atlas/workflows/prosecution/continuation/SKILL.md",
+      "sha256": "f499ae5275b4651b95bfffed8a07463f9e2e3d48f3026016e96aface4a217e96"
+    },
+    {
+      "path": "atlas/workflows/prosecution/continuation-in-part/SKILL.md",
+      "sha256": "111cb3cf35cf5ea22d28b1a68499790f3301a6da1b2655d3dabfcc02b951dda0"
+    },
+    {
+      "path": "atlas/workflows/prosecution/divisional/SKILL.md",
+      "sha256": "eec466d370728f391a8782d5d6d9cb7706f84c64bec73d965b76f2df4dc7f226"
+    },
+    {
+      "path": "atlas/workflows/prosecution/election-of-species/SKILL.md",
+      "sha256": "85d52bb885df20044a177ef0c131f563f3e2b34cb15481e30f9981494cc09ee1"
+    },
+    {
+      "path": "atlas/workflows/prosecution/interview-agenda/SKILL.md",
+      "sha256": "66617f4e45661c8dd066c3689fcd2e107b57a801dbcc6cd9ed3f0c6b09c4dc5a"
+    },
+    {
+      "path": "atlas/workflows/prosecution/interview-summary/SKILL.md",
+      "sha256": "278fc07570c991943983934f5c20acc42db6f2174c43e80ddc055b3376280439"
+    },
+    {
+      "path": "atlas/workflows/prosecution/office-action-response/SKILL.md",
+      "sha256": "5791ccc946163ea198f442bd6264223cc191412dd12ab07aef42f1ff1cb2f7a6"
+    },
+    {
+      "path": "atlas/workflows/prosecution/petition/SKILL.md",
+      "sha256": "7ac6f192202fbdbf2d7adff0825fa6933e4d84f55beb6d02e2e8e0cc5dbe0c5f"
+    },
+    {
+      "path": "atlas/workflows/prosecution/reissue/SKILL.md",
+      "sha256": "35735b954558af3de831381a82a12fea0a863ee4aa1660d75d998b8026592e69"
+    },
+    {
+      "path": "atlas/workflows/prosecution/reply-brief/SKILL.md",
+      "sha256": "f29e286db933f9946bba5b0996c60ab61234f6f90fc1d19d27210031c9ea2aa1"
+    },
+    {
+      "path": "atlas/workflows/prosecution/request-for-continued-examination/SKILL.md",
+      "sha256": "2f0f5e1196eb309c2689306a1b0ced27c173300eb998eb68485ba8f3750aedad"
+    },
+    {
+      "path": "atlas/workflows/prosecution/restriction-response/SKILL.md",
+      "sha256": "a02bdabea23e64fb9eacd40cf66a8eb1234accb33af8c5e3630de447d2030b82"
+    },
+    {
+      "path": "atlas/workflows/prosecution/specification-amendment/SKILL.md",
+      "sha256": "67d8a7129d9ec694ac76eb02ab167a73beba856f72d44756b56f4c8250654d97"
+    },
+    {
+      "path": "atlas/workflows/prosecution/supplemental-examination/SKILL.md",
+      "sha256": "89ac445104ee611c0c6292c462546a4fb6ec5e9d778e60b25d51ff96ed20ed6b"
+    },
+    {
+      "path": "atlas/workflows/prosecution/terminal-disclaimer/SKILL.md",
+      "sha256": "34f204da9e93ef40b8e20761b224cdf580357a80fc0429d5d841b97a2074beb5"
+    },
+    {
+      "path": "engine.json",
+      "sha256": "f8b5a79b185ca8d41a1c1f775dfedd1cc0ffaf9c3f4aa35144af90ba6272e572"
+    },
+    {
+      "path": "evals/README.md",
+      "sha256": "0430dd47f7a31b86c49e512984c9710aa663c3f4e0037c79a54ecb6fa0b97cb7"
+    },
+    {
+      "path": "evals/scenarios.json",
+      "sha256": "f39d96d54c776aa4a153c8ddadc9f27054ef8e29da5ebe2eff7563ae07178eac"
+    },
+    {
+      "path": "evals/score.py",
+      "sha256": "44537cd05c75323b04a27341635710c125d94aa7c692f27d7ab54045d5b0ace5"
+    },
+    {
+      "path": "modules/analyze.md",
+      "sha256": "e66e7e309cddee9d6136836f74f90128fbd794e340effe450a2704c9da0e1f6d"
+    },
+    {
+      "path": "modules/mine.md",
+      "sha256": "d79217d6f3019217f175adb8f446426433291cac24f488c906848ede0e9362f8"
+    },
+    {
+      "path": "modules/portfolio.md",
+      "sha256": "8fafc0bad723e5621442019727d00a779da8a896e7bf0bb2da6ef31d6107796d"
+    },
+    {
+      "path": "modules/prosecution.md",
+      "sha256": "b33b77e533df24e9d311da09624e5d0269fd380318868f8c7ffc5add615621f2"
+    },
+    {
+      "path": "phases/0-clarify.md",
+      "sha256": "9323eb0c94d896541ac5b7443373b5fb814f7d608b20a715564aba281d8fccdf"
+    },
+    {
+      "path": "phases/1-lite.md",
+      "sha256": "65b36ad77b5d2398dfc2a3b714fc09130d6e693bfb182cdf984069982efcf9b4"
+    },
+    {
+      "path": "phases/2-deep.md",
+      "sha256": "fb806abb4df3566c6ac840bd73d1e1ee569c7e7338fb6c7814705be87d7dbf27"
+    },
+    {
+      "path": "phases/3-draft.md",
+      "sha256": "8f809cd059404305486e4ff4d8bb0a287fd6221f7756b69ed5c327282f406d8d"
+    },
+    {
+      "path": "references/ai-and-inventorship.md",
+      "sha256": "89fc084dbed05a47913e03c81874c268f79c8e5802f15d46359a1af7b61bd7a1"
+    },
+    {
+      "path": "references/bars-and-eligibility.md",
+      "sha256": "dd2f30c0c324e3cb4180ac2f96ccbc35e21b918cc588521c454607ab353e0849"
+    },
+    {
+      "path": "references/case-law/README.md",
+      "sha256": "10eed5db14a882a8c1e7dc6f1b91a748d1f002a2018a4f1a7f48ca1677387fc1"
+    },
+    {
+      "path": "references/case-law/anticipation.md",
+      "sha256": "a9efefee93641b036f06e49113cfed352c2db058d4e3a8c35be8e9164688616e"
+    },
+    {
+      "path": "references/case-law/claims-and-construction.md",
+      "sha256": "12c367b533926a57043e1a4e8b8b200202ef790d3ef4695814b20f0846b265b7"
+    },
+    {
+      "path": "references/case-law/defenses.md",
+      "sha256": "8abc7a9d6b044f19fcdb210d5cc464c5808a575e4e306995421a95cf95e838fa"
+    },
+    {
+      "path": "references/case-law/design-patents.md",
+      "sha256": "95573f972826e35838a559d93c8419c5278cf60ab5e7eb20fd44b6a711f71576"
+    },
+    {
+      "path": "references/case-law/edge-case-drills.md",
+      "sha256": "ae1f87fb6fd52cd47fe0f7a6a707c9bd097d6c50f0f3e7da451e9dc88eab35cf"
+    },
+    {
+      "path": "references/case-law/eligibility-and-utility.md",
+      "sha256": "3df5d540cee82666176db20e8f5a29ccc17304c1c61c2ae33b646f2d939ba456"
+    },
+    {
+      "path": "references/case-law/infringement.md",
+      "sha256": "6a91fc3124554aa04bb85475fd048270444335b0b1f9a476b1b146916adf3a16"
+    },
+    {
+      "path": "references/case-law/novelty-and-bars.md",
+      "sha256": "d34386534b3baefbfbca872c3071a5dda656d9b176424adda95c101d3db7d7af"
+    },
+    {
+      "path": "references/case-law/obviousness.md",
+      "sha256": "aa3e9096c70617a519506b3b955dd680d8267f51232fdffa42dd1163492f7d86"
+    },
+    {
+      "path": "references/case-law/pharma-and-sep.md",
+      "sha256": "c82d2586757bccc400da3fb6379b26b2d1e5f9e8eed511f37bd236367c367bbb"
+    },
+    {
+      "path": "references/case-law/prosecution.md",
+      "sha256": "92b5fc8334aa081be80b1194dec5b9b94ff164c5f08ad4325d54894639ed9261"
+    },
+    {
+      "path": "references/case-law/ptab.md",
+      "sha256": "3f4085f197719baa982fd6658158b6f286ee76279a7d2ae215da9179b7664a2b"
+    },
+    {
+      "path": "references/case-law/remedies.md",
+      "sha256": "a54356335857c8e0a4a7ca043d337d674b94f62423539afaf294bdeca6a90f4c"
+    },
+    {
+      "path": "references/case-law/specification-112.md",
+      "sha256": "1779a76a22c302e003f178ab421b359988bc58e66cd83f6ec32bb8a4cf9f223a"
+    },
+    {
+      "path": "references/claim-drafting.md",
+      "sha256": "b550054848d543be85bd7bc0bff2b48e2f629322835dbdfa57177b1ad4106d7d"
+    },
+    {
+      "path": "references/cpc-primer.md",
+      "sha256": "c02bb9b5288e5cbce8293b8382923374c92f83921a0cb1d1a39fe30bf6a20527"
+    },
+    {
+      "path": "references/deadlines.md",
+      "sha256": "797f597d17629e1d0dcc3bc4560892f6c6a4bfb97fdd969a280fd25548a6d3ed"
+    },
+    {
+      "path": "references/disclosure-112.md",
+      "sha256": "15718a2b33d97f4030b1bc420b8272effc8863c7cca71122adc533bafc5ed291"
+    },
+    {
+      "path": "references/eligibility-101.md",
+      "sha256": "26ff283a1f2d27bfaed299c23ba8920ff6df832a995f760685ed0493957b3a54"
+    },
+    {
+      "path": "references/entity-status.md",
+      "sha256": "9b78d2cadc3b186894edf19c101bba4cf562cd449bc18d345be9cb013e1a0fd8"
+    },
+    {
+      "path": "references/examiner-review.md",
+      "sha256": "41428127ed9747b8da6a54f737037f721bdbc96bd6761ec410c14c867857a035"
+    },
+    {
+      "path": "references/fees.md",
+      "sha256": "5087f34a3c58425c3e8ab5ce9fdbcb8bb03248558dda0872cb23b4ae59b49337"
+    },
+    {
+      "path": "references/field-guides/chem-bio.md",
+      "sha256": "652f556c9da9e7058b669eb03f46ef7fffa56747e2885673753e29b53144850a"
+    },
+    {
+      "path": "references/field-guides/electrical.md",
+      "sha256": "05876c071af61b38ee15a465ee21ff1a187e0e6f2347a956cc2df1c24e8b86b6"
+    },
+    {
+      "path": "references/field-guides/mechanical.md",
+      "sha256": "0e4c0851f489175bb379dd9f86a26a020099bb359b491433712a432ba530d845"
+    },
+    {
+      "path": "references/field-guides/medical-device.md",
+      "sha256": "385c4c5e3b0e21bba1be9598b8548927326c84f5d60d771a7096ea6942506a15"
+    },
+    {
+      "path": "references/field-guides/software.md",
+      "sha256": "a34c3ff914c22482b2a0e4bab3e66e1043e345946a5b0661aa9f4b28a50a8d77"
+    },
+    {
+      "path": "references/filing-paths.md",
+      "sha256": "6ee29b6d223881049ec2a60d52dca5d583b365da975aadb440773189207f2c18"
+    },
+    {
+      "path": "references/forms-and-filing.md",
+      "sha256": "802507fe4f77c57a0fa33cb753572843373f672df26efec731a43686ccb51796"
+    },
+    {
+      "path": "references/knockout-method.md",
+      "sha256": "5adb9a92c6b1bf03c154762d3de48fc66493d71db4aa3d6221b91db1bf547adb"
+    },
+    {
+      "path": "references/novelty-and-obviousness.md",
+      "sha256": "673608b046c6234e535ae92e1d3f276fe5309c35e3adaccdcc63fd061863c12e"
+    },
+    {
+      "path": "references/practitioner-rules.md",
+      "sha256": "05ef5011b92415b1c087f4adfbdff0828a497d9f1dff5e82c949c6f1b76ff166"
+    },
+    {
+      "path": "references/prosecution.md",
+      "sha256": "dc695401a86250d132afd5deba6523d9485168105de96228887964b2c24d78cd"
+    },
+    {
+      "path": "references/report-format.md",
+      "sha256": "27d4759cbdea352903f3f0bb6422609eb53e7c4eaffe1d2c776b7ed3a79b79f0"
+    },
+    {
+      "path": "references/resources.md",
+      "sha256": "4da6e50b2b4fc62e79eced41b398226b383e1994b908204c819834bbd2d913de"
+    },
+    {
+      "path": "references/search-methodology.md",
+      "sha256": "8bcb19c52c100064f7625cc0419092a997efe85ddef8912c3399f0c9a1a48c83"
+    },
+    {
+      "path": "references/sources-and-apis.md",
+      "sha256": "098bbd91ceef7afe042106e6a56e89d87935b6157e24f53000de3e8ef78da3c8"
+    },
+    {
+      "path": "references/specification-drafting.md",
+      "sha256": "85d4b1d6f2525b1fb75db17c9a95b91938bfb7edaa5017c6b3a9f7b1be30d1fc"
+    },
+    {
+      "path": "references/state-files.md",
+      "sha256": "56b60e12a642bb6258975ea68d381a2787b04857ec2f6f09a23d98b9c7f96912"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "79bbf157099861247aa9828dd3cf926d8332f48f0788cdae3d4735f9f33000b7"
+    },
+    {
+      "path": "scripts/README.md",
+      "sha256": "7bba3e5e7accaaab0dbc1b441cd43dcaccb70b5e20e89e287125f26f6121e2df"
+    },
+    {
+      "path": "scripts/_dates.py",
+      "sha256": "8b7ff37dcca2f2b83feb9d24318c9950e2ebc8750d32dbb1b7af13a4ca885a71"
+    },
+    {
+      "path": "scripts/_specparse.py",
+      "sha256": "507bc6e3a224693d5e03b9e6a74613ee233352f8a13ef37645cb62a6107de869"
+    },
+    {
+      "path": "scripts/build_docx.py",
+      "sha256": "c713b5dce72b9e68aeff85d6d14a088c4ca5fee95b17cb942f5df248c3756a6a"
+    },
+    {
+      "path": "scripts/chart.py",
+      "sha256": "3bf932efe3a104b430620a864ccaae843dd5bc9243e63dfc7a5023289ba26041"
+    },
+    {
+      "path": "scripts/check_claims.py",
+      "sha256": "0b2c49a8fbf908788a795ddc76d916cddffb644ab4ec6e2ca766a80ea10e55f2"
+    },
+    {
+      "path": "scripts/check_drawings.py",
+      "sha256": "0528c16de3808a3c2db82d697e935942e083082dc0ddd8a937786c026f63529e"
+    },
+    {
+      "path": "scripts/check_package.py",
+      "sha256": "4024384c809c1e5040136169465fa69405def8c13e9d00922ffd93ea52ebcbad"
+    },
+    {
+      "path": "scripts/check_release.py",
+      "sha256": "d6283d90622c700f15f6372cd23fd15b629f1b03e85c456c57b419668a6b4c25"
+    },
+    {
+      "path": "scripts/check_spec.py",
+      "sha256": "1fe874bf8dfad4a14d1aad3d53b02514eebf4d651efc1ddcec171db6f30b7b79"
+    },
+    {
+      "path": "scripts/colline.py",
+      "sha256": "47dca319a04d8815796f52f3a3aee2a3c097fa3f463bbcfc0e80d945f808064b"
+    },
+    {
+      "path": "scripts/deadlines.py",
+      "sha256": "1132eddba79e80480b31892b6203aeff8f458964a1d3c36b759ec1a4237b953e"
+    },
+    {
+      "path": "scripts/drawings.py",
+      "sha256": "f80414f6fb11289c61c3168e6e08710c1471cf928be81149d9de144937683a4d"
+    },
+    {
+      "path": "scripts/fees.py",
+      "sha256": "dfe7bf72aa3a2828af5618ac9c93f9c6a025e9328c63f63dfb45fd9e737c8335"
+    },
+    {
+      "path": "scripts/fill_forms.py",
+      "sha256": "794202ab0f97339bfcaf4aefb8f3ad6c5cd18508c5c5706467c8099276eb48f1"
+    },
+    {
+      "path": "scripts/ids.py",
+      "sha256": "3e6c95fd799650dedafbc997973df7b89a663b32d1fe2a2eaa4b0bb1e6630a57"
+    },
+    {
+      "path": "scripts/manifest.py",
+      "sha256": "b6bba511990121a1c6ada34cf1c51753f5af9b08a2185ae27d857f55eef6166f"
+    },
+    {
+      "path": "scripts/md_to_docx.py",
+      "sha256": "e0f393aa856d98e23f00a4eb4929786ad90b1bdcf95d8110a5e320defca136e2"
+    },
+    {
+      "path": "scripts/normalize_number.py",
+      "sha256": "cd7060cdf3ba69df9b0b2bca13d2a19ff5067d187a12cc25e928967be07ca65f"
+    },
+    {
+      "path": "scripts/npl_fetch.py",
+      "sha256": "25e3023aa6ed1d6f0d10daa81531163d073967ec3d715be0f69a5cd236342227"
+    },
+    {
+      "path": "scripts/oa_check.py",
+      "sha256": "b5897b4062254b8696596551a5eb82f4bbfdd1c2a7f2e9760e3a2451ef2bf9ff"
+    },
+    {
+      "path": "scripts/oa_parse.py",
+      "sha256": "e07aa0fd360fd76ad33f589872fe44a65c9a486223039e4686dbcace5f27da05"
+    },
+    {
+      "path": "scripts/patent_fetch.py",
+      "sha256": "b5666b7610142419e3acdca48a0977ae199b6598fa5af686c39fa540a641ab9d"
+    },
+    {
+      "path": "scripts/prior_art.py",
+      "sha256": "13448ccc436bf441ff0a2136d84ec340ac787172c382a199bd0a8e49ef783288"
+    },
+    {
+      "path": "scripts/quote_check.py",
+      "sha256": "5b2b20ba76e0232a793c044d97b21d84199314473c3acbeacf94daaec080d34f"
+    },
+    {
+      "path": "scripts/review.py",
+      "sha256": "8dc3987aba0e405ee6b7f399d99c722df49de3f4ccbca94c9fda4139875a4653"
+    },
+    {
+      "path": "scripts/search_log.py",
+      "sha256": "e941356f264c12d9b70f83f1ecd53e948ed41c94403f9e3430cb25795b6c1dfe"
+    },
+    {
+      "path": "scripts/state.py",
+      "sha256": "4a5374ce442f2117efb577b4253fe49ba51af21ba515ad4fbeaa367c9ef176ff"
+    },
+    {
+      "path": "scripts/verify_refs.py",
+      "sha256": "660e97400fbf42e512904de80683ab143763aea5943f196ae4a8950a8113c856"
+    },
+    {
+      "path": "templates/assessment.json",
+      "sha256": "26bcf4975ccc1ff16952115ca1d22e67b1a452c7de4e0ebc8925a38ee8721d7f"
+    },
+    {
+      "path": "templates/fto-screen.md",
+      "sha256": "cce466e4024a35b30a600bd8f6eb8a18e3b362d248d3720104fac232900b6c5d"
+    },
+    {
+      "path": "templates/invention-disclosure.md",
+      "sha256": "efc110def934305e994167b05cda8e3ed7d495235d01b15be6144c4cd2e7e0e1"
+    },
+    {
+      "path": "templates/lite-report.md",
+      "sha256": "15b0ee8b8bdc726d684c966522fbade305cb32f75339410232140c073c328420"
+    },
+    {
+      "path": "templates/oa-response.md",
+      "sha256": "1f383b30f8952931f4e4d84226232d2cdac67d6bb81c498caa576387be24d07f"
+    },
+    {
+      "path": "templates/search-report.md",
+      "sha256": "d7e0d0d0dbb59aa061d89fba71a691aec78509281ad6c205ae10c7b77875cd8a"
+    },
+    {
+      "path": "tests/fixtures/README.md",
+      "sha256": "033e1fca42f47922dec171c973cfd02e76878602a3ed6b2d538268b0f3d34588"
+    },
+    {
+      "path": "tests/fixtures/build/claims.md",
+      "sha256": "80c1f069edfc7b12e6890060869bb7cc3b8f07ae24429027f4cc19df8fb007e0"
+    },
+    {
+      "path": "tests/fixtures/build/figures.json",
+      "sha256": "1323481e1b87f2645be0b4779725d7484f689c3f14335bb541c14f57b87af55c"
+    },
+    {
+      "path": "tests/fixtures/build/filing.json",
+      "sha256": "53877c3760f843ff4a454aa2d26379f1fe5fc9ddf08b5ba8c3e103b31f40369b"
+    },
+    {
+      "path": "tests/fixtures/build/line_through_box_figures.json",
+      "sha256": "72ce09174d7484ffdd0b16630eb4b41d7d9b80d516a9a37d14afa5d9960c25c2"
+    },
+    {
+      "path": "tests/fixtures/build/line_through_box_spec.md",
+      "sha256": "3a69154dd2ea8bf3d8ff949ea94559dfd49ae9f36020437789a9148438b14e0b"
+    },
+    {
+      "path": "tests/fixtures/build/spec.md",
+      "sha256": "aad204979917315f2335adb4c36226c880b29db254330a81f2590635cf5fc61e"
+    },
+    {
+      "path": "tests/fixtures/colline/US5560126A.pdf",
+      "sha256": "842017d1e37915de7ca9a288726f0f7cf008df84acfd9a07ab66b264a8b2bf71"
+    },
+    {
+      "path": "tests/fixtures/colline/US9457709B2.pdf",
+      "sha256": "6ff32b02bba1c92ed11e39d1ac980db621aec009d78811a943eda4f7e25786a9"
+    },
+    {
+      "path": "tests/fixtures/draft/broken_antecedent.md",
+      "sha256": "c9847958ab0cf233050b634daf6a093521540c0c0d72cdf7f83594ecf4ab00a5"
+    },
+    {
+      "path": "tests/fixtures/draft/broken_forward.md",
+      "sha256": "a102a3cf98337b7fc95f38117b44ef3faf2613645d3e56cd9d2c2be5c3981b6f"
+    },
+    {
+      "path": "tests/fixtures/draft/broken_indefinite.md",
+      "sha256": "b9cf4d1e3c0ca7f7bb091186d583fc0cb69dbffb54f841e8062a68383890af22"
+    },
+    {
+      "path": "tests/fixtures/draft/broken_multi.md",
+      "sha256": "ec893a6d51568cb6d23c55b4c0bc7e41c3016fc5a9e0b6ab94ff96f188d687e1"
+    },
+    {
+      "path": "tests/fixtures/draft/broken_nonce.md",
+      "sha256": "60794e3ffe0dba26ce3a7a83cfbdd352fd54178688199a1802c29eafcf03c771"
+    },
+    {
+      "path": "tests/fixtures/draft/broken_sentence.md",
+      "sha256": "5ad4c3ee96ee42409e59be22c4f65193f327599c264ec958877e6caf8e69b6df"
+    },
+    {
+      "path": "tests/fixtures/draft/broken_spec.md",
+      "sha256": "db8cd264217d364974630bac319f352e5e0fb0f0b5b1cd6a7aba4436f47396b2"
+    },
+    {
+      "path": "tests/fixtures/draft/chart_bad.json",
+      "sha256": "190a032bc4c24f1deb6f1bef4a076583f1e857ee8ff7587c0f8dae5e2239e45e"
+    },
+    {
+      "path": "tests/fixtures/draft/chart_patentability.json",
+      "sha256": "98beda3dc725b04f42de067754fe80ad8c96829d92f7e04495b4c918ef6b32e8"
+    },
+    {
+      "path": "tests/fixtures/draft/clean_claims.md",
+      "sha256": "fca355eea3744f05cc169edba1858ba6d3b0cc6efeba2481e1dd7ef0ad56e83b"
+    },
+    {
+      "path": "tests/fixtures/draft/clean_figures.json",
+      "sha256": "5d89e25272c77cc6399803bb0b58b78ba74325cc1b10dd7edf58dc66c3c68c36"
+    },
+    {
+      "path": "tests/fixtures/draft/clean_spec.md",
+      "sha256": "914f182490dc58338562de1dedd8e149889e5d1ef79e55889e2a401838c060f5"
+    },
+    {
+      "path": "tests/fixtures/draft/matter/prior-art.json",
+      "sha256": "d76059a5b003ad9796fa8fda3af31932e3b7ddb89e90947258f81e40f676b01d"
+    },
+    {
+      "path": "tests/fixtures/draft/tricky_valid_claims.md",
+      "sha256": "b8d2a9b5721ad05c8d488f7ea072095256d8dd7ef9c5829b71ed95be24086f1e"
+    },
+    {
+      "path": "tests/fixtures/prosecution/claims_previous.md",
+      "sha256": "c76a5ac1476c750f49a5486432d8fd16a1ee91c7ad8a1251d35b4db9b7e316dc"
+    },
+    {
+      "path": "tests/fixtures/prosecution/oa_nonfinal.txt",
+      "sha256": "7b10192f0779efc508fd32d24bbc3b5740c0172bc66198eea814db95d7d535ec"
+    },
+    {
+      "path": "tests/fixtures/prosecution/response_bad.md",
+      "sha256": "4fd64c6c558c765011245bec9907bec170813d8029b401f1374ee16ef43ed59d"
+    },
+    {
+      "path": "tests/fixtures/prosecution/response_good.md",
+      "sha256": "82883c44edbb665d01c1a0ae083cb9a14d48ee97434043d78fb5b759cd0a699d"
+    },
+    {
+      "path": "tests/fixtures/prosecution/spec.md",
+      "sha256": "d7092a49f0a88180a7727d9a77e81195310c9dc90582770c4a2636e128956268"
+    },
+    {
+      "path": "tests/fixtures/search/EP1000000B1.html",
+      "sha256": "5e6cd52c41b032784f099fe2f9c4fa062761675b5b60e37409c4ae7b02b6190a"
+    },
+    {
+      "path": "tests/fixtures/search/US20160144773A1.html",
+      "sha256": "c8231065ee9bcb4e74c2263902524337f858979e11fcd582f0190e57ed927a19"
+    },
+    {
+      "path": "tests/fixtures/search/US9457709B2.html",
+      "sha256": "a73706f286eb30ea2675a99788c08f6afdff0839f8f79a1cadd1b93d141394ac"
+    },
+    {
+      "path": "tests/test_build_check_drawings.py",
+      "sha256": "840f3b41460be392a63ad96b8128de49914481a1c352f761da4be6b3164eb4c9"
+    },
+    {
+      "path": "tests/test_build_docx.py",
+      "sha256": "2d8de078104e1a2b7035a34096ae358e0630df5926ba272fa739f1589694c83a"
+    },
+    {
+      "path": "tests/test_build_drawings.py",
+      "sha256": "1f8a00658cab49570d48ffe6ea1af150a5f78e228b7686c4ba1498adaa78b670"
+    },
+    {
+      "path": "tests/test_build_forms.py",
+      "sha256": "a6a632f7fbbb01cc502cf085bad7e4706ef06ae9cb707f66ea8a115febd2afed"
+    },
+    {
+      "path": "tests/test_build_manifest.py",
+      "sha256": "632e4b4a48363912123a00708190e562f5169fb39c8fd8d8c67fa259c9ff43cb"
+    },
+    {
+      "path": "tests/test_colline.py",
+      "sha256": "cc461d2e1651f710e55234e297a2c1bee8837ec6b209f7e76fdbb54cefe45508"
+    },
+    {
+      "path": "tests/test_draft_chart.py",
+      "sha256": "17e516afe2d6a81946946b750b541b3e250745e506b6a8b424f20dd744d3c2fc"
+    },
+    {
+      "path": "tests/test_draft_claims.py",
+      "sha256": "0fdce01ce4204d7cd9865c4afbccecf4e4a609413169db293365ac3573e22f7e"
+    },
+    {
+      "path": "tests/test_draft_package.py",
+      "sha256": "cd696e6d0577580c730c0ecf1725052a8c1e6cb2c2f5f37150261d75600cf3fd"
+    },
+    {
+      "path": "tests/test_draft_spec.py",
+      "sha256": "befc0bd4a22295c797624731b933c58dbc53842caabe5373bbb80b5b1f12bb11"
+    },
+    {
+      "path": "tests/test_drills_dates.py",
+      "sha256": "506507eb5b9bbe8020f79f1db53e241a6b86e1fa9661db5248c7ba053630eb21"
+    },
+    {
+      "path": "tests/test_evals_score.py",
+      "sha256": "59f649f8e94c207d8e0a96171f47c2c14a1a1a2ac09a799a69ae34dc56eb29ca"
+    },
+    {
+      "path": "tests/test_prosecution_deadlines.py",
+      "sha256": "f72afab73d150475e4ff46e37a9053df077a1380a0e81f118f844bc06f85d974"
+    },
+    {
+      "path": "tests/test_prosecution_fees.py",
+      "sha256": "59150d020900b2543260bb288fdafd56e25548a4d3b7bd7e1ab1451427e63f77"
+    },
+    {
+      "path": "tests/test_prosecution_oa_check.py",
+      "sha256": "8b2678b6542095dd10a7c7fb953af0ede6b3704022f01852c346cadbba6ea895"
+    },
+    {
+      "path": "tests/test_prosecution_oa_parse.py",
+      "sha256": "b05b5abd4211d7601378286dd59017aee8ae2997d2423baa70f8c2cd24385430"
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "026eebc83a329c4328d6e6cea8ddb7fd5bd5663ba9c05c09a4182897786473d1"
+    },
+    {
+      "path": "tests/test_search_normalize.py",
+      "sha256": "e24660b61e26ac98dd98d3b4d72f1c27216525bc97f2809a8c04e61ece100979"
+    },
+    {
+      "path": "tests/test_search_npl.py",
+      "sha256": "189fefd9f4d83ade99f66d503d9d7be7408687c4c5239e8bd22ec6158d5fa2e7"
+    },
+    {
+      "path": "tests/test_search_parse.py",
+      "sha256": "d281bc51dd65b8e2403ca6ecf3e588ea027b82acd512cae28781b2d0f1618ccd"
+    },
+    {
+      "path": "tests/test_search_prior_art.py",
+      "sha256": "f7d9b208d8a1bd3fc0289c8b04b1df4bd773676e917d0f87da77d61af428138e"
+    },
+    {
+      "path": "tests/test_search_state.py",
+      "sha256": "bc9e1ba1f6e43853566386c90fe0f53f3f6d43bd7a3fb47e9854773aed3b7294"
+    },
+    {
+      "path": "tests/test_search_verify.py",
+      "sha256": "549d47775a9013e8adfe4ed88d6eabc38cf0990f24942d95ed2f69fa9ccdcc84"
+    }
+  ]
+}

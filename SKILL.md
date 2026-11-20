@@ -68,3 +68,7 @@ Honor decisions already made in the current task. A user who authorizes the comp
 Reports use [report-format.md](references/report-format.md). Put the assessment before long tables or caveats. In chat give the bottom line, decisive evidence, counterargument resolution and next step. Save full source records, checks and coverage in the private matter. Briefly identify the output as a research aid/draft, not a registered practitioner's work or a guarantee; do not let a disclaimer replace the analysis.
 
 Load only needed legal/field guides. [Case-law index](references/case-law/README.md) supplies hypotheses and edge cases to verify. [Other tools and free research resources](references/resources.md) are optional, not dependencies. The skill never autonomously signs, files, pays, contacts the Office or publishes matter files.
+
+## Atlas workflow catalog
+
+The optional [Atlas adapter](atlas/README.md) catalogs individual outputs and future shells. It preserves this standalone skill; adapter readiness is tracked separately.

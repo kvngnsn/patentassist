@@ -1,0 +1,2440 @@
+{
+  "schema_version": "1.0",
+  "engine": "patentassist",
+  "workflows": [
+    {
+      "id": "phases.0-clarify",
+      "name": "Patent: 0 clarify",
+      "category": "phases",
+      "description": "Run the existing 0 clarify methodology with source and review contracts",
+      "path": "atlas/workflows/phases/0-clarify/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Run the existing 0 clarify methodology with source and review contracts",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Run the existing 0 clarify methodology with source and review contracts",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "phases/0-clarify.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "phases.1-lite",
+      "name": "Patent: 1 lite",
+      "category": "phases",
+      "description": "Run the existing 1 lite methodology with source and review contracts",
+      "path": "atlas/workflows/phases/1-lite/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Run the existing 1 lite methodology with source and review contracts",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Run the existing 1 lite methodology with source and review contracts",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "phases/1-lite.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "phases.2-deep",
+      "name": "Patent: 2 deep",
+      "category": "phases",
+      "description": "Run the existing 2 deep methodology with source and review contracts",
+      "path": "atlas/workflows/phases/2-deep/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Run the existing 2 deep methodology with source and review contracts",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Run the existing 2 deep methodology with source and review contracts",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "phases/2-deep.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "phases.3-draft",
+      "name": "Patent: 3 draft",
+      "category": "phases",
+      "description": "Run the existing 3 draft methodology with source and review contracts",
+      "path": "atlas/workflows/phases/3-draft/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Run the existing 3 draft methodology with source and review contracts",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Run the existing 3 draft methodology with source and review contracts",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "phases/3-draft.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "modules.analyze",
+      "name": "Patent: analyze",
+      "category": "modules",
+      "description": "Run the existing analyze methodology with source and review contracts",
+      "path": "atlas/workflows/modules/analyze/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Run the existing analyze methodology with source and review contracts",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Run the existing analyze methodology with source and review contracts",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "modules/analyze.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "modules.mine",
+      "name": "Patent: mine",
+      "category": "modules",
+      "description": "Run the existing mine methodology with source and review contracts",
+      "path": "atlas/workflows/modules/mine/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Run the existing mine methodology with source and review contracts",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Run the existing mine methodology with source and review contracts",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "modules/mine.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "modules.portfolio",
+      "name": "Patent: portfolio",
+      "category": "modules",
+      "description": "Run the existing portfolio methodology with source and review contracts",
+      "path": "atlas/workflows/modules/portfolio/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Run the existing portfolio methodology with source and review contracts",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Run the existing portfolio methodology with source and review contracts",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "modules/portfolio.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "modules.prosecution",
+      "name": "Patent: prosecution",
+      "category": "modules",
+      "description": "Run the existing prosecution methodology with source and review contracts",
+      "path": "atlas/workflows/modules/prosecution/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Run the existing prosecution methodology with source and review contracts",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Run the existing prosecution methodology with source and review contracts",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "modules/prosecution.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "drafting.provisional",
+      "name": "Provisional",
+      "category": "drafting",
+      "description": "Prepare the requested provisional with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/provisional/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested provisional with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested provisional with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.nonprovisional",
+      "name": "Nonprovisional",
+      "category": "drafting",
+      "description": "Prepare the requested nonprovisional with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/nonprovisional/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested nonprovisional with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested nonprovisional with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.claims",
+      "name": "Claims",
+      "category": "drafting",
+      "description": "Prepare the requested claims with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/claims/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested claims with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested claims with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.specification",
+      "name": "Specification",
+      "category": "drafting",
+      "description": "Prepare the requested specification with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/specification/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested specification with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested specification with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.abstract",
+      "name": "Abstract",
+      "category": "drafting",
+      "description": "Prepare the requested abstract with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/abstract/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested abstract with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested abstract with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.drawings",
+      "name": "Drawings",
+      "category": "drafting",
+      "description": "Prepare the requested drawings with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/drawings/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested drawings with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested drawings with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.application-data-sheet",
+      "name": "Application Data Sheet",
+      "category": "drafting",
+      "description": "Prepare the requested application data sheet with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/application-data-sheet/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested application data sheet with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested application data sheet with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.inventor-declaration",
+      "name": "Inventor Declaration",
+      "category": "drafting",
+      "description": "Prepare the requested inventor declaration with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/inventor-declaration/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested inventor declaration with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested inventor declaration with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.assignment",
+      "name": "Assignment",
+      "category": "drafting",
+      "description": "Prepare the requested assignment with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/assignment/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested assignment with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested assignment with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.information-disclosure-statement",
+      "name": "Information Disclosure Statement",
+      "category": "drafting",
+      "description": "Prepare the requested information disclosure statement with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/information-disclosure-statement/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested information disclosure statement with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested information disclosure statement with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.priority-claim",
+      "name": "Priority Claim",
+      "category": "drafting",
+      "description": "Prepare the requested priority claim with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/priority-claim/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested priority claim with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested priority claim with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "drafting.sequence-listing",
+      "name": "Sequence Listing",
+      "category": "drafting",
+      "description": "Prepare the requested sequence listing with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/drafting/sequence-listing/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested sequence listing with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested sequence listing with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.office-action-response",
+      "name": "Office Action Response",
+      "category": "prosecution",
+      "description": "Prepare the requested office action response with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/office-action-response/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested office action response with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested office action response with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.claim-amendment",
+      "name": "Claim Amendment",
+      "category": "prosecution",
+      "description": "Prepare the requested claim amendment with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/claim-amendment/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested claim amendment with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested claim amendment with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.specification-amendment",
+      "name": "Specification Amendment",
+      "category": "prosecution",
+      "description": "Prepare the requested specification amendment with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/specification-amendment/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested specification amendment with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested specification amendment with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.restriction-response",
+      "name": "Restriction Response",
+      "category": "prosecution",
+      "description": "Prepare the requested restriction response with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/restriction-response/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested restriction response with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested restriction response with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.election-of-species",
+      "name": "Election Of Species",
+      "category": "prosecution",
+      "description": "Prepare the requested election of species with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/election-of-species/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested election of species with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested election of species with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.interview-agenda",
+      "name": "Interview Agenda",
+      "category": "prosecution",
+      "description": "Prepare the requested interview agenda with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/interview-agenda/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested interview agenda with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested interview agenda with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.interview-summary",
+      "name": "Interview Summary",
+      "category": "prosecution",
+      "description": "Prepare the requested interview summary with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/interview-summary/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested interview summary with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested interview summary with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.after-final-response",
+      "name": "After Final Response",
+      "category": "prosecution",
+      "description": "Prepare the requested after final response with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/after-final-response/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested after final response with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested after final response with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.request-for-continued-examination",
+      "name": "Request For Continued Examination",
+      "category": "prosecution",
+      "description": "Prepare the requested request for continued examination with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/request-for-continued-examination/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested request for continued examination with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested request for continued examination with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.appeal-brief",
+      "name": "Appeal Brief",
+      "category": "prosecution",
+      "description": "Prepare the requested appeal brief with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/appeal-brief/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested appeal brief with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested appeal brief with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.reply-brief",
+      "name": "Reply Brief",
+      "category": "prosecution",
+      "description": "Prepare the requested reply brief with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/reply-brief/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested reply brief with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested reply brief with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.petition",
+      "name": "Petition",
+      "category": "prosecution",
+      "description": "Prepare the requested petition with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/petition/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested petition with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested petition with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.terminal-disclaimer",
+      "name": "Terminal Disclaimer",
+      "category": "prosecution",
+      "description": "Prepare the requested terminal disclaimer with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/terminal-disclaimer/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested terminal disclaimer with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested terminal disclaimer with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.continuation",
+      "name": "Continuation",
+      "category": "prosecution",
+      "description": "Prepare the requested continuation with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/continuation/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested continuation with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested continuation with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.divisional",
+      "name": "Divisional",
+      "category": "prosecution",
+      "description": "Prepare the requested divisional with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/divisional/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested divisional with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested divisional with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.continuation-in-part",
+      "name": "Continuation In Part",
+      "category": "prosecution",
+      "description": "Prepare the requested continuation in part with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/continuation-in-part/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested continuation in part with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested continuation in part with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.reissue",
+      "name": "Reissue",
+      "category": "prosecution",
+      "description": "Prepare the requested reissue with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/reissue/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested reissue with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested reissue with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.supplemental-examination",
+      "name": "Supplemental Examination",
+      "category": "prosecution",
+      "description": "Prepare the requested supplemental examination with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/supplemental-examination/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested supplemental examination with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested supplemental examination with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "prosecution.certificate-of-correction",
+      "name": "Certificate Of Correction",
+      "category": "prosecution",
+      "description": "Prepare the requested certificate of correction with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/prosecution/certificate-of-correction/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested certificate of correction with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested certificate of correction with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "analysis.claim-chart",
+      "name": "Claim Chart",
+      "category": "analysis",
+      "description": "Prepare the requested claim chart with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/analysis/claim-chart/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested claim chart with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested claim chart with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "analysis.support-matrix",
+      "name": "Support Matrix",
+      "category": "analysis",
+      "description": "Prepare the requested support matrix with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/analysis/support-matrix/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested support matrix with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested support matrix with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "analysis.prior-art-report",
+      "name": "Prior Art Report",
+      "category": "analysis",
+      "description": "Prepare the requested prior art report with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/analysis/prior-art-report/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested prior art report with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested prior art report with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "analysis.patentability-assessment",
+      "name": "Patentability Assessment",
+      "category": "analysis",
+      "description": "Prepare the requested patentability assessment with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/analysis/patentability-assessment/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested patentability assessment with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested patentability assessment with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "analysis.freedom-to-operate",
+      "name": "Freedom To Operate",
+      "category": "analysis",
+      "description": "Prepare the requested freedom to operate with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/analysis/freedom-to-operate/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested freedom to operate with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested freedom to operate with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "analysis.invalidity-analysis",
+      "name": "Invalidity Analysis",
+      "category": "analysis",
+      "description": "Prepare the requested invalidity analysis with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/analysis/invalidity-analysis/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested invalidity analysis with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested invalidity analysis with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "analysis.infringement-comparison",
+      "name": "Infringement Comparison",
+      "category": "analysis",
+      "description": "Prepare the requested infringement comparison with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/analysis/infringement-comparison/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested infringement comparison with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested infringement comparison with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "analysis.portfolio-review",
+      "name": "Portfolio Review",
+      "category": "analysis",
+      "description": "Prepare the requested portfolio review with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/analysis/portfolio-review/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested portfolio review with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested portfolio review with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "analysis.maintenance-checklist",
+      "name": "Maintenance Checklist",
+      "category": "analysis",
+      "description": "Prepare the requested maintenance checklist with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/analysis/maintenance-checklist/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested maintenance checklist with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested maintenance checklist with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.design-application",
+      "name": "Design Application",
+      "category": "future",
+      "description": "Prepare the requested design application with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/future/design-application/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested design application with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested design application with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.plant-application",
+      "name": "Plant Application",
+      "category": "future",
+      "description": "Prepare the requested plant application with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/future/plant-application/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested plant application with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested plant application with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.pct-application",
+      "name": "Pct Application",
+      "category": "future",
+      "description": "Prepare the requested pct application with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/future/pct-application/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested pct application with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested pct application with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.national-stage-entry",
+      "name": "National Stage Entry",
+      "category": "future",
+      "description": "Prepare the requested national stage entry with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/future/national-stage-entry/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested national stage entry with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested national stage entry with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.foreign-prosecution-handoff",
+      "name": "Foreign Prosecution Handoff",
+      "category": "future",
+      "description": "Prepare the requested foreign prosecution handoff with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/future/foreign-prosecution-handoff/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested foreign prosecution handoff with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested foreign prosecution handoff with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.ptab-petition",
+      "name": "Ptab Petition",
+      "category": "future",
+      "description": "Prepare the requested ptab petition with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/future/ptab-petition/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested ptab petition with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested ptab petition with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.ptab-response",
+      "name": "Ptab Response",
+      "category": "future",
+      "description": "Prepare the requested ptab response with scope-specific inputs, source support and review requirements",
+      "path": "atlas/workflows/future/ptab-response/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "authority.search"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the requested ptab response with scope-specific inputs, source support and review requirements",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the requested ptab response with scope-specific inputs, source support and review requirements",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    }
+  ]
+}
